@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+title: "Enterprise Network Security Architecture and Security Monitoring Design with SOC-Readiness for VECTORFIELD"
+message: "If you use this work, please cite it as below."
+type: report
+
+authors:
+  - name: "ESKme"
+
+url: "https://ESKme.net"
+
+repository-code: "https://github.com/ESKme/vectorfield-network-security-archlab"
+
+license: "CC-BY-SA-4.0"
+
+abstract: >
+  This work develops a conceptual enterprise network security architecture and a security monitoring
+  design with SOC-Readiness for the fictional company VECTORFIELD, with the objective of designing a
+  traceable, auditable, and operationally realistic security architecture for medium-sized organizations.
+  The starting point of the investigation is a structured stakeholder interview conducted under realistic
+  organizational tension conditions. This interview forms the binding Single Source of Truth from which
+  all technical requirements, security decisions, and architectural principles are derived.
+
+  On this basis, testable security and operational requirements are first formulated and compared with
+  established cybersecurity frameworks. The primary methodological reference framework is the NIST
+  Cybersecurity Framework (CSF), supplemented by practical security principles of modern enterprise
+  networks such as segmentation, least-privilege access, and default-deny communication models.
+
+  Building upon this, a logical network architecture is developed that defines clearly separated trust
+  zones in the form of separate VLAN segments. A central enforcement point (firewall gateway) controls
+  all inter-zone communication. Security-relevant functions such as access controls, logging, monitoring
+  preparation, and audit traceability are systematically integrated into the architecture design.
+  Particular emphasis is placed on the SOC-Readiness of the architecture, especially with regard to
+  centralized logging, time synchronization, event traceability, and organizational role responsibility.
+
+  In addition to technical aspects, the work explicitly considers economic and organizational boundary
+  conditions, including limited investment budgets, the absence of a 24/7-SOC operation, and operational
+  maintenance realities. The architecture therefore follows a pragmatic approach that reconciles security
+  requirements with realistic operating conditions.
+
+  The result of the work is a fully documented architecture concept that transparently links requirements,
+  design decisions, risks, and validation criteria. Through systematic traceability between stakeholder
+  requirements, architecture design, and security controls, a model emerges that can serve both as a
+  planning foundation for real enterprise networks and as a methodological reference framework for
+  security-oriented architecture work.
+
+  The work demonstrates that a methodically structured architecture development oriented toward
+  governance and auditability can make a significant contribution to the sustainable improvement of
+  network security, even under realistic organizational and economic constraints.
+
+keywords:
+  - cybersecurity
+  - enterprise-security
+  - network-security
+  - security-architecture
+  - network-segmentation
+  - zero-trust
+  - pfsense
+  - vlan
+  - nist-csf
+  - soc-readiness
+  - threat-modeling
+  - technical-documentation
+
+date-released: 2026-03-22
+version: "1.0"
+
+preferred-citation:
+  type: report
+  title: "Enterprise Network Security Architecture and Security Monitoring Design with SOC-Readiness for VECTORFIELD"
+  authors:
+    - name: "ESKme"
+  year: 2026
+  url: "https://files.eskme.net/levelup/labs/netarch/vectorfield/ESKme-VECTORFIELD-ENSAS-EN-v1.0.pdf"

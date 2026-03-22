@@ -1,0 +1,41 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "CreativeWork",
+  "name": "VECTORFIELD — Enterprise Network Security Architecture Study",
+  "description": "Traceability-driven enterprise network security architecture study demonstrating how stakeholder constraints, audit requirements, and operational realities can be translated into a realistic and auditable security architecture design.",
+  "license": "https://spdx.org/licenses/CC-BY-SA-4.0",
+  "codeRepository": "https://github.com/ESKme/vectorfield-network-security-archlab",
+  "url": "https://ESKme.net",
+  "version": "1.0",
+  "datePublished": "2026-03-22",
+  "author": {
+    "@type": "Person",
+    "name": "ESKme",
+    "url": "https://ESKme.net"
+  },
+  "keywords": [
+    "cybersecurity",
+    "enterprise security",
+    "network security",
+    "security architecture",
+    "network segmentation",
+    "zero trust",
+    "pfSense",
+    "VLAN",
+    "NIST CSF",
+    "SOC readiness",
+    "threat modeling",
+    "security monitoring"
+  ],
+  "applicationCategory": "Cybersecurity Architecture Study",
+  "softwareRequirements": [
+    "pfSense",
+    "VLAN-capable network infrastructure",
+    "centralized logging infrastructure",
+    "NTP time synchronization"
+  ],
+  "developmentStatus": "completed",
+  "relatedLink": [
+    "https://files.eskme.net/levelup/labs/netarch/vectorfield/ESKme-VECTORFIELD-ENSAS-EN-v1.0.pdf"
+  ]
+}
